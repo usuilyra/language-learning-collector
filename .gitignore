@@ -1,0 +1,15 @@
+# Publish only the reviewed skill and its setup files.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/LICENSE
+!/SKILL.md
+!/references/
+!/scripts/
+
+/references/*
+!/references/library-schema.md
+
+/scripts/*
+!/scripts/excel_library.py
